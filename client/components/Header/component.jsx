@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './style.css';
+
 export default class Header extends React.Component {
 
     render () {
-        return (<h1>Component 1 - h1</h1>);
+        return (<span className="header">Component 1 - content</span>);
     }
 }
