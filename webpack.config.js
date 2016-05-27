@@ -9,11 +9,11 @@ module.exports = {
   context: path.join(__dirname, './client'),
   entry: {
     index: './index.js',
-    exports: './exports.js'
+    'component1/component1': './exports.js'
   },
   output: {
     path: path.join(__dirname, './static'),
-    filename: '[name].bundle.js',
+    filename: '[name].js',
     libraryTarget: 'umd'
   },
   externals: {
