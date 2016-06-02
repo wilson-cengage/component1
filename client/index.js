@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-import WorkflowWidget from 'components/WorkflowWidget';
+import ToolbarWidget from 'components/ToolbarWidget';
 
 import 'index.html';
 
 ReactDOM.render(
-  <WorkflowWidget/>,
+  <ToolbarWidget/>,
   document.getElementById('root')
 );

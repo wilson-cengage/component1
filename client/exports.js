@@ -1,1 +1,1 @@
-export { default as WorkflowWidget } from 'components/WorkflowWidget';
+export { default as ToolbarWidget } from 'components/ToolbarWidget';
